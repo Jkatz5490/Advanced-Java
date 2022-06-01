@@ -1,0 +1,74 @@
+package leetCode;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Q2_Add_Two_Numbers {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> l1 = new LinkedList<>();
+		LinkedList<Integer> l2 = new LinkedList<>();
+		//ListNode l3 = new LinkedList<Integer>();
+
+		for (int i = 1; i < 10; i++) {
+			l1.add(i);
+		}
+		for (int i = 9; i > 0; i--) {
+			l2.add(i);
+		}
+		
+		/*
+		ListNode ln = new ListNode(4);
+		ln.setData(0);
+		ln.setData(1);
+		ln.setData(2);
+		ln.setData(3);
+		ln.setData(4);
+		ln.setData(5);
+		
+		LinkedListReversal linkedListReversal = new LinkedListReversal();
+		
+		l3 = linkedListReversal.reverseListMethod(ln);
+		
+		*/
+		
+		
+
+		
+
+		// System.out.println(l1);
+		System.out.println(l2);
+
+		// reverse the linked lists
+		int l1Size = l1.size(); /* get the size of the linked list */
+		/* conver linked list into array so indexes can be accessed */
+		List<Integer> intList = l1.stream()
+                .map(Integer::valueOf)
+                .collect(Collectors.toList());
+		
+		
+		
+		/*
+		for(int i = 0; i<l1.size(); i++) {
+			intList.add(l1Size);
+			l1Size = l1Size - 1;
+		}
+		*/
+		
+		// convert arrayList to an array
+		Integer[] arr = intList.toArray(new Integer[intList.size()]);
+		
+		
+		
+		// System.out.println(intList);
+		System.out.println(Arrays.toString(arr));
+		
+		
+		
+
+	}
+
+}

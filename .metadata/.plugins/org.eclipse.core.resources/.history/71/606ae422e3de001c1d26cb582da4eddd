@@ -1,0 +1,10 @@
+package lambda10Examples;
+
+public class Example_4__Using_Lambda_expression_and_Functional_interface_Predicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

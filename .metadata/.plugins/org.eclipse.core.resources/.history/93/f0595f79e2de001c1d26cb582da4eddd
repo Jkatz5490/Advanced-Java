@@ -1,0 +1,10 @@
+package lambda10Examples;
+
+public class Example_3__Iterating_over_List_using_Lambda_expressions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

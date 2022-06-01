@@ -1,0 +1,10 @@
+package classNameCreator;
+
+public class Class_Name_Creator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

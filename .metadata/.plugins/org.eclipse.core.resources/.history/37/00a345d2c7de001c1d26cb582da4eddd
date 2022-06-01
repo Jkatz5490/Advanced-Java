@@ -1,0 +1,27 @@
+package classNameCreator;
+
+public class Class_Name_Creator {
+
+	public static void main(String[] args) {
+		Class_Name_Creator cr = new Class_Name_Creator();
+		cr.removeSpaces("Example 1 - implementing Runnable using Lambda expression");
+		cr.replaceSpacesWithUnderScores("Example 1 - implementing Runnable using Lambda expression");
+
+	}
+	
+	public void removeSpaces(String className) {
+		
+		if(className.contains(" ")) {
+			className.replace(" ", "");
+		}
+		System.out.println(className);
+	}
+	
+	public void replaceSpacesWithUnderScores(String className) {
+		if(className.contains(" ")) {
+			className.replace(" ", "_");
+		}
+		System.out.println(className);
+	}
+
+}

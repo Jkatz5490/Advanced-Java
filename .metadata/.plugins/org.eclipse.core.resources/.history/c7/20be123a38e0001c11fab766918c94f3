@@ -1,0 +1,18 @@
+package leetCode;
+
+import java.util.LinkedList;
+
+public class Q2_Add_Two_Numbers {
+
+	public static void main(String[] args) {
+
+		LinkedList<Integer> l1 = new LinkedList<>();
+		LinkedList<Integer> l2 = new LinkedList<>();
+		
+		
+		
+		
+		
+	}
+
+}

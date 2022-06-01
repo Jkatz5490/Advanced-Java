@@ -1,0 +1,25 @@
+package classNameCreator;
+
+public class Class_Name_Creator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void removeSpaces(String className) {
+		
+		if(className.contains(" ")) {
+			className.replace(" ", "");
+		}
+		System.out.println(className);
+	}
+	
+	public void replaceSpacesWithUnderScores(String className) {
+		if(className.contains(" ")) {
+			className.replace(" ", "_");
+		}
+		System.out.println(className);
+	}
+
+}

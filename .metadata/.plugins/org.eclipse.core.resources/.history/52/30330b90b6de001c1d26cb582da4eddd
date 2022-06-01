@@ -1,0 +1,38 @@
+package leetCode;
+
+import java.util.ArrayList;
+
+public class Unique_chars_in_string {
+
+	public static void main(String[] args) {
+		String str = "Hello world";
+		int count = 0;
+		boolean unique = true;
+		ArrayList<String> uniqueChars = new ArrayList<String>();
+
+		for (int i = 0; i < str.length(); i++) {
+
+			for (int x = 0; x < str.length(); x++) {
+				if (str.charAt(i) == (str.charAt(x))) {
+					unique = false;
+					count = count + 1;
+				} else
+					System.out.println("Still testing");
+				
+				if(count == 1) {
+					unique = true;
+				}
+
+				if (unique == true && count == 1) {
+					count = 0;
+					uniqueChars.add(str.charAt(i), str);
+				}
+			}
+
+		}
+
+		System.out.println(uniqueChars);
+
+	}
+
+}

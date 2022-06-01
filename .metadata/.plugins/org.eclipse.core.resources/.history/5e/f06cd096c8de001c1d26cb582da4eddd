@@ -1,0 +1,10 @@
+package lambda10Examples;
+
+public class Example_1__implementing_Runnable_using_Lambda_expression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
