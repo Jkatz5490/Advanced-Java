@@ -8,6 +8,7 @@ enum Day {
  * cant do enum with numbers 
  * 
  */
+//
 
 // enum Numbers { 1, 5, 6,}
 
