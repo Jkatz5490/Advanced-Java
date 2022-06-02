@@ -25,5 +25,6 @@ public class Q2_Determine_if_sum_of_two_integers_equals_given_value {
 		}
 
 	}
+	//
 
 }
