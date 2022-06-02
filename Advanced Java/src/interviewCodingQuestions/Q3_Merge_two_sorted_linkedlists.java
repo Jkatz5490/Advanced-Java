@@ -17,7 +17,7 @@ public class Q3_Merge_two_sorted_linkedlists {
 		// 0->2->4 LinkedList created
 		ListNode mergedhead = mergeTwoLists(head1, head2);
 
-		
+		//
 		printList(mergedhead);
 
 	}
