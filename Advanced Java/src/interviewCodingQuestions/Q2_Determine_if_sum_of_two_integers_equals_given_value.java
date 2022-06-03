@@ -5,6 +5,7 @@ public class Q2_Determine_if_sum_of_two_integers_equals_given_value {
 	public static void main(String[] args) {
 		int[] arr = { 3, 6, 4, 9, 5, 11 };
 
+		
 		int givenValue = 13;
 		int flag = 0;
 
@@ -14,7 +15,7 @@ public class Q2_Determine_if_sum_of_two_integers_equals_given_value {
 					flag = 1;
 					if (flag == 1) {
 						System.out.println(
-								"Match found. " + arr[i] +" + "+ arr[x] + " equals the given value: " + givenValue);
+								"Match found. " + arr[i] + " + " + arr[x] + " equals the given value: " + givenValue);
 						break;
 					}
 				}
