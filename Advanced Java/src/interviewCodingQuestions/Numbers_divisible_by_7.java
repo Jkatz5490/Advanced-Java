@@ -80,8 +80,9 @@ public class Numbers_divisible_by_7 {
 			}
 		}
 		System.out.println("Duplicates in String: " + dupeChars);
-		//
-		// test add commit
+		// test 2 
+		// test 3 
+		// test 4
 
 	}
 
